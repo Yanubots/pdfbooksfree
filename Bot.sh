@@ -72,6 +72,8 @@ then
    echo 'updating....'
    echo ''
    wget https://raw.githubusercontent.com/Yanubots/pdfbooksfree/main/Bot.sh -o Bot.sh
+   rm *.sh.*
+   mv *.sh.* Bot.sh
 else
     exit 1
 fi
